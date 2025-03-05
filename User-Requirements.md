@@ -11,12 +11,19 @@ The user requirements for a software project contain the needs, expectations, an
 - A user shall login with a registered email and password
 
 ## Task
-- A task shall only persist from 12:00 am to 12:59 pm
+
+### Registration
+The registration state is when tasks are added for the current day and optionally the following day.
 - A task shall be added for the current day between 12:00 am till 12:00 pm
 - A task may be added for the following day
+- A task shall have a delete option during initial setup time (this would not count towards stats)
+- A task shall allow the title and description to be edited
+
+### Active
+The active state is when tasks can no longer be added for the current day
+- A task shall only persist for the current day from 12:00 am to 12:59 pm
 - A task shall have an option to mark as completed
 - A task shall have an option to abandon after 12:00 pm for the current day (this would be considered in-complete)
-- A task shall have an option to delete during initial setup time (this would not count towards stats)
 
 ## Statistics
 - Statistics shall track the tasks that were completed
