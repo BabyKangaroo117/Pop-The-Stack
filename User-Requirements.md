@@ -4,7 +4,7 @@ The user requirements for a software project contain the needs, expectations, an
 # Requirements
 ## User input
 - A user shall enter a task with a title and optional description
-- A user shall remove a task within a 24 hour period
+- A user shall complete a task within a 24 hour period
 - A user shall be able to update a tasks title and description
 - A user shall access task statistics
 - A user shall sign up with a valid email and password
