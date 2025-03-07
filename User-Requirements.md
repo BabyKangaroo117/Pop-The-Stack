@@ -21,7 +21,7 @@ The registration state is when tasks are added for the current day and optionall
 
 ### Active
 The active state is when tasks can no longer be added for the current day
-- A task shall only persist for the current day from 12:00 am to 12:59 pm
+- A task shall only persist for the current day from 12:00 am to 12:00 the following day
 - A task shall have an option to mark as completed
 - A task shall have an option to abandon after 12:00 pm for the current day (this would be considered in-complete)
 
