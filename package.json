@@ -1,0 +1,26 @@
+{
+  "name": "pop-the-stack",
+  "version": "1.0.0",
+  "description": "Pop the Stack is a productivity app with the goal of keeping people focused on the most important tasks for the day. This is achieved by having users add items to their stack at the beginning of each day, then popping each item as they complete them. The goal is to have no items in your stack by the end of the day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BabyKangaroo117/Pop-The-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BabyKangaroo117/Pop-The-Stack/issues"
+  },
+  "homepage": "https://github.com/BabyKangaroo117/Pop-The-Stack#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node": "^23.9.0",
+    "nodejs": "^0.0.0"
+  }
+}
